@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crawling Form</title>
+</head>
+<body>
+    <h1>Enter Date to Crawl Data</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="strat_date">
+        <input type="text" name="end_date">
+        <button type="submit">Crawl</button>
+    </form>
+</body>
+</html>
