@@ -5,3 +5,4 @@ sqlparse==0.4.3 ; python_version >= '3.5'
 bs4
 selenium
 pandas
+chromedriver_autoinstaller
